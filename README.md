@@ -1,6 +1,5 @@
-# 100DaysOfPython
-
 # 🚀 100 Days of Python 🐍
+
 
 Welcome to the **100 Days of Python** coding challenge! This initiative is designed to take you from beginner to expert in Python programming through disciplined, structured learning and hands-on projects.
 
