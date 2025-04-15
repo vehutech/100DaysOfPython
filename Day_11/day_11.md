@@ -4,7 +4,7 @@
 
 ---
 
-### Story Time: Welcome Back, Python Chefs!
+### Welcome Back, Python Chefs!
 
 Hellooooo Python Chefs! 🚀🚀🚀
 Today, we level up from noodle-slinging apprentices to full-blown **restaurant managers**.  
