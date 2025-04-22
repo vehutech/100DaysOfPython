@@ -4,9 +4,6 @@ Welcome to **Chef Py’s Kitchen of Knowledge**! Today, we're baking a **Quiz Ga
 
 ---
 
-## 🍽️ Ingredients (Your Original Code)
-
-
 ```python
 # Python Quiz Game - Day 12
 # 🧑‍🍳 Welcome to the Quiz Kitchen!
