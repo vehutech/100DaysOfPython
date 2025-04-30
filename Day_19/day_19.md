@@ -82,8 +82,6 @@ Here, the `sauce.py` functions are available, but its `make_sauce()` call inside
 
 ---
 
-## Real-World Analogy (Kitchen Style 🍝)
-
 - The `__main__` block is like a **demo recipe card** inside a cookbook.
 - If you open the book directly, you can follow the whole recipe.
 - If another chef borrows only one part of your recipe (e.g., just your sauce-making function), they **don’t get the demo** — just the part they need.
