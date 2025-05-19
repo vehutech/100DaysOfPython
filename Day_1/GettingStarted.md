@@ -116,7 +116,10 @@ Without the Python interpreter, your device won’t understand Python. This is l
 ✅ **To Verify Installation:**
 
 - **Windows:** Open Command Prompt and type:
-
+```
+python3 -version
+```
+if you see an error output it means there's a problem somewhere. 
 ---
 
 ## **How to Install an IDE (Your Kitchen Setup 🏡)**
