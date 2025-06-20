@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grandma's Restaurant - Authentic Italian Cuisine</title>
+    <style>
+        /* Basic styling for navigation */
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        
+        .header {
+            background-color: #8B4513;
+            color: white;
+            padding: 1rem 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .logo h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        
+        .main-nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .main-nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        
+        .main-nav a:hover,
+        .main-nav a:focus {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        
+        .main-nav a[aria-current="page"] {
+            background-color: #654321;
+        }
+        
+        .breadcrumb {
+            background-color: #f4f4f4;
+            padding: 0.5rem 0;
+        }
+        
+        .breadcrumb ol {
+            list-style: none;
+            display: flex;
+            gap: 0.5rem;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .breadcrumb li:not(:last-child)::after {
+            content: " → ";
+            margin-left: 0.5rem;
+            color: #666;
+        }
+        
+        .breadcrumb a {
+            color: #8B4513;
+            text-decoration: none;
+        }
+        
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+        
+        .main-content {
+            padding: 2rem 0;
+        }
+        
+        .page-nav {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+        
+        .page-nav h2 {
+            margin-top: 0;
+            color: #8B4513;
+        }
+        
+        .page-nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .page-nav li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .page-nav a {
+            color: #8B4513;
+            text-decoration: none;
+        }
+        
+        .page-nav a:hover {
+            text-decoration: underline;
+        }
+        
+        .section {
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .section:last-child {
+            border-bottom: none;
+        }
+        
+        .back-to-top {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        
+        .back-to-top a {
+            color: #8B4513;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+        
+        .footer-nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+            margin: 0;
+            padding: 0;
+            flex-wrap: wrap;
+        }
+        
+        .footer-nav a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .footer-nav a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Mobile responsive */
+        @media (max-width: 768px) {
+            .main-nav ul {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .breadcrumb ol {
+                flex-direction: column;
+                gap: 0.25rem;
+            }
+            
+            .breadcrumb li:not(:last-child)::after {
+                content: none;
+            }
+            
+            .footer-nav ul {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .menu-toggle {
+                display: block;
+                background: none;
+                border: none;
+                cursor: pointer;
+            }
+            
+            .main-nav {
+                display: none;
+            }
+            
+            .main-nav.active {
+                display: block;
+            }
+        }
+        
+        @media (min-width: 769px) {
+            .menu-toggle {
+                display: none;
+            }
+            
+            .main-nav {
+                display: block;
+            }
+        }
+        
+        .menu-toggle {
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .hamburger-line {
+            display: block;
+            width: 25px;
+            height: 3px;
+            background-color: white;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body id="top">
+    <!-- Main Header with Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <h1>Grandma's Restaurant</h1>
+                </div>
+                
+                <button class="menu-toggle" 
+                        aria-label="Toggle navigation menu"
+                        aria-expanded="false"
+                        aria-controls="main-nav">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+                
+                <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+                    <ul>
+                        <li><a href="index.html" aria-current="page">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="reservations.html">Reservations</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumb Navigation -->
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+        <div class="container">
+            <ol>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li aria-current="page">Dinner Menu</li>
+            </ol>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <h1>Dinner Menu</h1>
+            <p>Discover our authentic Italian dinner selections, prepared with traditional recipes passed down through generations.</p>
+
+            <!-- Page Contents Navigation -->
+            <nav class="page-nav" aria-label="Page contents">
+                <h2>Menu Sections</h2>
+                <ul>
+                    <li><a href="#antipasti">Antipasti</a></li>
+                    <li><a href="#primi-piatti">Primi Piatti (First Courses)</a></li>
+                    <li><a href="#secondi-piatti">Secondi Piatti (Main Courses)</a></li>
+                    <li><a href="#contorni">Contorni (Side Dishes)</a></li>
+                    <li><a href="#dolci">Dolci (Desserts)</a></li>
+                    <li><a href="#beverages">Beverages</a></li>
+                </ul>
+            </nav>
+
+            <!-- Menu Sections -->
+            <section id="antipasti" class="section">
+                <h2>Antipasti</h2>
+                <p>Begin your culinary journey with our traditional Italian appetizers.</p>
+                
+                <article class="menu-item">
+                    <h3>Bruschetta Trio</h3>
+                    <p>Three varieties of our house-made bruschetta: classic tomato basil, roasted pepper and goat cheese, and olive tapenade. <strong>$14</strong></p>
+                </article>
+                
+                <article class="menu-item">
+                    <h3>Antipasto della Casa</h3>
+                    <p>Chef's selection of cured meats, artisanal cheeses, marinated vegetables, and olives. <strong>$18</strong></p>
+                </article>
+                
+                <article class="menu-item">
+                    <h3>Calamari Fritti</h3>
+                    <p>Fresh squid rings lightly battered and fried, served with spicy marinara sauce. <strong>$16</strong></p>
+                </article>
+            </section>
+
+            <section id="primi-piatti" class="section">
+                <h2>Primi Piatti (First Courses)</h2>
+                <p>Our handmade pasta dishes and risottos, perfect as a first course or light meal.</p>
+                
+                <article class="menu-item">
+                    <h3>Spaghetti Carbonara</h3>
+                    <p>Traditional Roman pasta with eggs, pancetta, pecorino Romano, and black pepper. <strong>$22</strong></p>
+                </article>
+                
+                <article class="menu-item">
+                    <h3>Risotto ai Funghi Porcini</h3>
+                    <p>Creamy Arborio rice with wild porcini mushrooms and Parmesan cheese. <strong>$24</strong></p>
+                </article>
+                
+                <article class="menu-item">
+                    <h3>Penne all'Arrabbiata</h3>
+                    <p>Penne pasta in a spicy tomato sauce with garlic and red chilies. <strong>$20</strong></p>
+                </article>
+            </section>
+
+            <section id="secondi-piatti" class="section">
+                <h2>Secondi Piatti (Main Courses)</h2>
+                <p>Our signature main dishes featuring the finest meats, seafood, and seasonal ingredients.</p>
+                
+                <article class="menu-item">
+                    <h3>Osso Buco alla Milanese</h3>
+                    <p>Braised veal shanks with vegetables, white wine, and broth, served with saffron risotto. <strong>$38</strong></p>
+                </article>
+                
+                <article class="menu-item">
+                    <h3>Branzino in Crosta di Sale</h3>
+                    <p>Mediterranean sea bass baked in a salt crust, served with roasted vegetables and lemon oil. <strong>$32</strong></p>
+                </article>
+                
+                <article class="menu-item">
+                    <h3>Pollo alla Parmigiana</h3>
+                    <p>Breaded chicken breast topped with tomato sauce and mozzarella, served with pasta. <strong>$28</strong></p>
+                </article>
+            </section>
+
+            <section id="contorni" class="section">
+                <h2>Contorni (Side Dishes)</h2>
+                <p>Perfect accompaniments to complement your main course.</p>
+                
+                <article class="menu-item">
+                    <h3>Verdure Grigliate</h3>
+                    <p>Seasonal grilled vegetables with herb oil. <strong>$12</strong></p>
+                </article>
+                
+                <article class="menu-item">
+                    <h3>Patate al Rosmarino</h3>
+                    <p>Roasted potatoes with rosemary and garlic. <strong>$10</strong></p>
+                </article>
+                
+                <article class="menu-item">
+                    <h3>Spinaci all'Aglio</h3>
+                    <p>Fresh spinach sautéed with garlic and olive oil. <strong>$9</strong></p>
+                </article>
+            </section>
+
+            <section id="dolci" class="section">
+                <h2>Dolci (Desserts)</h2>
+                <p>End your meal with our traditional Italian desserts, made fresh daily.</p>
+                
+                <article class="menu-item">
+                    <h3>Tiramisu della Casa</h3>
+                    <p>Classic layered dessert with espresso-soaked ladyfingers and mascarpone cream. <strong>$12</strong></p>
+                </article>
+                
+                <article class="menu-item">
+                    <h3>Panna Cotta ai Frutti di Bosco</h3>
+                    <p>Silky vanilla panna cotta topped with mixed berry compote. <strong>$10</strong></p>
+                </article>
+                
+                <article class="menu-item">
+                    <h3>Gelato e Sorbetto</h3>
+                    <p>Selection of house-made gelato and sorbet. Ask your server for today's flavors. <strong>$8</strong></p>
+                </article>
+            </section>
+
+            <section id="beverages" class="section">
+                <h2>Beverages</h2>
+                <p>Complement your meal with our carefully curated wine list and specialty drinks.</p>
+                
+                <article class="menu-item">
+                    <h3>Wine Selection</h3>
+                    <p>Extensive collection of Italian and international wines. <a href="wine-list.html">View full wine list</a></p>
+                </article>
+                
+                <article class="menu-item">
+                    <h3>Espresso & Coffee</h3>
+                    <p>Traditional Italian espresso, cappuccino, and specialty coffee drinks. <strong>$4-8</strong></p>
+                </article>
+                
+                <article class="menu-item">
+                    <h3>Digestivi</h3>
+                    <p>Grappa, Limoncello, Sambuca, and other traditional Italian digestifs. <strong>$8-12</strong></p>
+                </article>
+            </section>
+
+            <!-- Back to top navigation -->
+            <div class="back-to-top">
+                <a href="#top">↑ Back to Top</a>
+            </div>
+
+            <!-- Related pages navigation -->
+            <nav aria-label="Related pages">
+                <h2>Explore More</h2>
+                <ul>
+                    <li><a href="lunch-menu.html">Lunch Menu</a></li>
+                    <li><a href="wine-list.html">Wine List</a></li>
+                    <li><a href="reservations.html">Make a Reservation</a></li>
+                    <li><a href="events.html">Private Events & Catering</a></li>
+                </ul>
+            </nav>
+        </div>
+    </main>
+
+    <!-- Footer with additional navigation -->
+    <footer class="footer">
+        <div class="container">
+            <nav class="footer-nav" aria-label="Footer navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                </ul>
+            </nav>
+            
+            <div class="footer-content">
+                <p>© 2024 Grandma's Restaurant. All rights reserved.</p>
+                <address>
+                    <p>123 Little Italy Street, Food City, FC 12345</p>
+                    <p>Phone: <a href="tel:+15551234567">(555) 123-4567</a></p>
+                    <p>Email: <a href="mailto:info@grandmasrestaurant.com">info@grandmasrestaurant.com</a></p>
+                    <p>Follow us:
+                        <a href="https://www.instagram.com/grandmasrestaurant" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           aria-label="Follow Grandma's Restaurant on Instagram (opens in new tab)">
+                            Instagram
+                        </a> | 
+                        <a href="https://www.facebook.com/grandmasrestaurant" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           aria-label="Follow Grandma's Restaurant on Facebook (opens in new tab)">
+                            Facebook
+                        </a> | 
+                        <a href="https://www.twitter.com/grandmasrestaurant" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           aria-label="Follow Grandma's Restaurant on Twitter (opens in new tab)">
+                            Twitter
+                        </a>
+                    </p>
+                </address>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for mobile menu toggle -->
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            const nav = document.querySelector('.main-nav');
+            const button = this;
+            
+            nav.classList.toggle('active');
+            
+            // Update ARIA state
+            const isExpanded = nav.classList.contains('active');
+            button.setAttribute('aria-expanded', isExpanded);
+        });
+    </script>
+</body>
+</html>

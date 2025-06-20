@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Grandma's Restaurant</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        
+        .header {
+            background-color: #8B4513;
+            color: white;
+            padding: 1rem 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .logo h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        
+        .main-nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .main-nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        
+        .main-nav a:hover,
+        .main-nav a:focus {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        
+        .main-nav a[aria-current="page"] {
+            background-color: #654321;
+        }
+        
+        .breadcrumb {
+            background-color: #f4f4f4;
+            padding: 0.5rem 0;
+        }
+        
+        .breadcrumb ol {
+            list-style: none;
+            display: flex;
+            gap: 0.5rem;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .breadcrumb li:not(:last-child)::after {
+            content: " → ";
+            margin-left: 0.5rem;
+            color: #666;
+        }
+        
+        .breadcrumb a {
+            color: #8B4513;
+            text-decoration: none;
+        }
+        
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+        
+        .main-content {
+            padding: 2rem 0;
+        }
+        
+        .page-nav {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+        
+        .page-nav h2 {
+            margin-top: 0;
+            color: #8B4513;
+        }
+        
+        .page-nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .page-nav li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .page-nav a {
+            color: #8B4513;
+            text-decoration: none;
+        }
+        
+        .page-nav a:hover {
+            text-decoration: underline;
+        }
+        
+        .section {
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .section:last-child {
+            border-bottom: none;
+        }
+        
+        .back-to-top {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        
+        .back-to-top a {
+            color: #8B4513;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+        
+        .footer-nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+            margin: 0;
+            padding: 0;
+            flex-wrap: wrap;
+        }
+        
+        .footer-nav a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .footer-nav a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .main-nav ul {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .breadcrumb ol {
+                flex-direction: column;
+                gap: 0.25rem;
+            }
+            
+            .breadcrumb li:not(:last-child)::after {
+                content: none;
+            }
+            
+            .footer-nav ul {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .menu-toggle {
+                display: block;
+                background: none;
+                border: none;
+                cursor: pointer;
+            }
+            
+            .main-nav {
+                display: none;
+            }
+            
+            .main-nav.active {
+                display: block;
+            }
+        }
+        
+        @media (min-width: 769px) {
+            .menu-toggle {
+                display: none;
+            }
+            
+            .main-nav {
+                display: block;
+            }
+        }
+        
+        .menu-toggle {
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .hamburger-line {
+            display: block;
+            width: 25px;
+            height: 3px;
+            background-color: white;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body id="top">
+    <header class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <h1>Grandma's Restaurant</h1>
+                </div>
+                
+                <button class="menu-toggle" 
+                        aria-label="Toggle navigation menu"
+                        aria-expanded="false"
+                        aria-controls="main-nav">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+                
+                <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html" aria-current="page">About Us</a></li>
+                        <li><a href="reservations.html">Reservations</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+        <div class="container">
+            <ol>
+                <li><a href="index.html">Home</a></li>
+                <li aria-current="page">About Us</li>
+            </ol>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <h1>About Grandma's Restaurant</h1>
+            <p>Discover the heart and soul of our family-owned establishment, serving authentic Italian cuisine since 1975.</p>
+
+            <nav class="page-nav" aria-label="Page contents">
+                <h2>On This Page</h2>
+                <ul>
+                    <li><a href="#our-story">Our Story</a></li>
+                    <li><a href="#our-chef">Meet Our Chef</a></li>
+                    <li><a href="#awards">Awards & Recognition</a></li>
+                </ul>
+            </nav>
+
+            <section id="our-story" class="section">
+                <h2>Our Story</h2>
+                <p>Founded by Nonna Maria, Grandma's Restaurant began as a small trattoria in Little Italy, bringing her cherished family recipes to the community. Over the decades, we've grown while staying true to our roots, offering dishes made with love and tradition.</p>
+                <p>Our commitment to quality ingredients and time-honored techniques has made us a beloved destination for locals and visitors alike.</p>
+            </section>
+
+            <section id="our-chef" class="section">
+                <h2>Meet Our Chef</h2>
+                <p>Chef Antonio Rossi, Nonna Maria's grandson, leads our kitchen with passion and expertise. Trained in Italy and inspired by his grandmother's recipes, Antonio brings innovation to classic dishes while preserving their authentic flavors.</p>
+                <p>His dedication to sustainable sourcing and seasonal ingredients ensures every plate tells a story of tradition and care.</p>
+            </section>
+
+            <section id="awards" class="section">
+                <h2>Awards & Recognition</h2>
+                <ul>
+                    <li>Best Italian Restaurant, Food City Awards 2023</li>
+                    <li>Michelin Bib Gourmand, 2020-2022</li>
+                    <li>Featured in Food Network's "Top Family-Run Restaurants," 2021</li>
+                </ul>
+                <p>We’re honored to be recognized for our dedication to authentic Italian cuisine and warm hospitality.</p>
+            </section>
+
+            <div class="back-to-top">
+                <a href="#top">↑ Back to Top</a>
+            </div>
+
+            <nav aria-label="Related pages">
+                <h2>Explore More</h2>
+                <ul>
+                    <li><a href="menu.html">Our Menu</a></li>
+                    <li><a href="reservations.html">Make a Reservation</a></li>
+                    <li><a href="events.html">Private Events & Catering</a></li>
+                </ul>
+            </nav>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <nav class="footer-nav" aria-label="Footer navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                </ul>
+            </nav>
+            
+            <div class="footer-content">
+                <p>© 2024 Grandma's Restaurant. All rights reserved.</p>
+                <address>
+                    <p>123 Little Italy Street, Food City, FC 12345</p>
+                    <p>Phone: <a href="tel:+15551234567">(555) 123-4567</a></p>
+                    <p>Email: <a href="mailto:info@grandmasrestaurant.com">info@grandmasrestaurant.com</a></p>
+                    <p>Follow us:
+                        <a href="https://www.instagram.com/grandmasrestaurant" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           aria-label="Follow Grandma's Restaurant on Instagram (opens in new tab)">
+                            Instagram
+                        </a> | 
+                        <a href="https://www.facebook.com/grandmasrestaurant" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           aria-label="Follow Grandma's Restaurant on Facebook (opens in new tab)">
+                            Facebook
+                        </a> | 
+                        <a href="https://www.twitter.com/grandmasrestaurant" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           aria-label="Follow Grandma's Restaurant on Twitter (opens in new tab)">
+                            Twitter
+                        </a>
+                    </p>
+                </address>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            const nav = document.querySelector('.main-nav');
+            const button = this;
+            
+            nav.classList.toggle('active');
+            
+            const isExpanded = nav.classList.contains('active');
+            button.setAttribute('aria-expanded', isExpanded);
+        });
+    </script>
+</body>
+</html>
