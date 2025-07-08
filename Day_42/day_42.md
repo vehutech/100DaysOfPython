@@ -7,7 +7,7 @@ By the end of this lesson, you will be able to create secure, validated forms in
 
 ## Course Introduction
 
-**Imagine that...** you're the head chef of a world-class restaurant, and every day, customers give you special requests - dietary restrictions, cooking preferences, special occasions they're celebrating. But here's the thing: you can't just accept any request without checking it first. Is the customer asking for something you can actually make? Are they allergic to ingredients they're requesting? Do they have the authority to make changes to the order?
+Imagine that... you're the head chef of a world-class restaurant, and every day, customers give you special requests - dietary restrictions, cooking preferences, special occasions they're celebrating. But here's the thing: you can't just accept any request without checking it first. Is the customer asking for something you can actually make? Are they allergic to ingredients they're requesting? Do they have the authority to make changes to the order?
 
 In the digital kitchen of web development, forms are your **order-taking system**. Just like a professional restaurant has standardized order forms and verification processes, Django provides a powerful forms framework that helps you collect, validate, and process user input safely and efficiently.
 
