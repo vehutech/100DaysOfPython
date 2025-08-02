@@ -5,7 +5,7 @@ By the end of this course, you will be able to analyze, refactor, document, and 
 
 ---
 
-## Introduction: Imagine That...
+## Introduction: Imagine That....
 
 Imagine that you've been cooking in various kitchens for months, learning different techniques, experimenting with flavors, and creating dishes. Now, you've been invited to work in a Michelin-starred restaurant kitchen where every detail matters. The head chef hands you a complex recipe that previous cooks have worked on - it functions, but it's messy, poorly documented, and inefficient.
 
