@@ -1,5 +1,4 @@
 # Day 71: Statistics & Probability for AI
-**A Complete Course with Kitchen Chef Analogies**
 
 ## Learning Objectives
 By the end of this course, you will be able to:
