@@ -1,4 +1,4 @@
-# AI Mastery Course - Day 75: Unsupervised Learning with Django
+# AI Mastery Course - Day 75: Unsupervised Learning
 
 ## Learning Objective
 By the end of this lesson, you will master the art of unsupervised learning algorithms and implement them in a Django web application, enabling you to discover hidden patterns in data without labeled examples - just like a master chef who can identify flavor profiles and create new recipes by understanding the underlying ingredients and their relationships.
