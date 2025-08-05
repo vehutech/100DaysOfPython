@@ -1,4 +1,4 @@
-# AI Mastery Course - Django: Day 76 Ensemble Methods
+# AI Mastery Course: Day 76 Ensemble Methods
 
 ## Learning Objective
 By the end of this lesson, you will master ensemble methods in machine learning and implement them using Django as your web framework. You'll understand how to combine multiple models like a master chef combines ingredients to create extraordinary dishes, and build a Django application that serves ensemble predictions.
