@@ -22,9 +22,6 @@ Each day, we’ll tackle new topics, building from fundamentals to advanced conc
 
 We’ll be using **Django** (instead of Flask/FastAPI) and **MySQL** as our database of choice.
 
-## 📚 Learning Resources
-We’ll be leveraging high-quality books, videos, and the **Harvard CS50 course** and quite a handfull of others as our foundation.
-
 ## 🎯 How to Participate
 1. **Fork this repository** and clone it to your local machine.
 2. Create a new folder for each day (e.g., `Day_01`).
