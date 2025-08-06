@@ -5,7 +5,7 @@ By the end of this lesson, you will master the essential skills of preparing raw
 
 ---
 
-## Introduction: The Kitchen Analogy
+## Introduction:
 
 Imagine that you're the head chef at a world-renowned restaurant, and you've just received a delivery of fresh ingredients for tonight's signature dish. However, these ingredients arrive in various states - some vegetables have dirt on them, some fruits are overripe, others are underripe, and the portions are all different sizes. 
 

@@ -15,7 +15,7 @@ From yesterday’s discussion, we outlined four core things you’ll need:
 But there’s **one more crucial ingredient**:  
 5. **Python Interpreter**
 
-Now, let’s break these down using a simple kitchen analogy.
+Now, let’s break these down
 
 ---
 
@@ -245,7 +245,7 @@ Professionals often describe variables as _containers_, but a more accurate anal
 
 Think of it like a **magic wand in a fairy tale**—a variable doesn't hold the magic itself, but it binds a name to a value, allowing you to summon it whenever needed.
 
-But please let's continue with our kitchen analogy:
+But please let's continue:
 
 Imagine you’re a chef with a **container labeled "Sugar"**. Whenever you need sugar, you just grab it from that container.
 

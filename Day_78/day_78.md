@@ -6,7 +6,7 @@ By the end of this lesson, you will understand the fundamental building blocks o
 
 ---
 
-## Introduction: The Kitchen Analogy
+## Introduction
 
 Imagine that you're the head chef in a world-class restaurant, and you need to train a team of sous chefs to create the perfect dish. Each sous chef (neuron) receives different ingredients (inputs), processes them with their unique cooking techniques (activation functions), and passes the result to the next chef in line. Through trial and error, feedback from customers (backpropagation), and constant recipe refinement (gradient descent), your kitchen eventually learns to create masterpiece dishes consistently.
 
@@ -856,7 +856,7 @@ The project generates a synthetic dataset representing recipe classifications, t
 
 ## Summary
 
-Today you learned the foundational concepts of neural networks through our kitchen analogy:
+Today you learned the foundational concepts of neural networks through our analogy:
 
 - **Perceptrons**: Individual chefs making simple decisions
 - **Multi-layer networks**: Teams of chefs working together
@@ -866,5 +866,3 @@ Today you learned the foundational concepts of neural networks through our kitch
 - **TensorFlow/Keras**: Professional kitchen tools
 
 You now have the fundamental knowledge to build neural networks from scratch and understand how they learn to transform inputs into accurate predictions, just like a kitchen transforms ingredients into perfect dishes through practice and feedback.
-
-Next, you'll learn how to integrate these concepts into Django web applications for real-world deployment!

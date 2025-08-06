@@ -1527,7 +1527,7 @@ Your expense tracker now has a complete multi-user authentication system where:
 4. **Forgotten passwords can be reset** through the email system
 5. **Sessions are managed securely** with proper logout functionality
 
-The kitchen analogy helps us understand that each user has their own private space (kitchen) where they can manage their expenses without interference from others, just like how restaurant managers each have their own office and records.
+The analogy helps us understand that each user has their own private space (kitchen) where they can manage their expenses without interference from others, just like how restaurant managers each have their own office and records.
 
 ## Key Security Features Implemented:
 

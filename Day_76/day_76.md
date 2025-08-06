@@ -15,7 +15,6 @@ This is exactly how ensemble methods work in machine learning. Just as you combi
 
 ## Lesson 1: Bagging and Boosting - The Foundation of Team Cooking
 
-### The Kitchen Analogy
 Think of **bagging** like having multiple chefs prepare the same dish independently, each using slightly different ingredients from your pantry. At the end, you taste all versions and take the average flavor profile - this reduces the chance of any single chef's mistake ruining the dish.
 
 **Boosting** is like having chefs work in sequence, where each chef learns from the previous chef's mistakes and focuses on improving the areas where the previous chef struggled.
@@ -155,7 +154,6 @@ def boosting_demo(request):
 
 ## Lesson 2: Random Forest Deep Dive - The Dream Kitchen Team
 
-### The Kitchen Analogy
 Random Forest is like having a kitchen full of specialized chefs, each trained on different recipes (random subsets of ingredients) and different cooking techniques (random subsets of methods). Each chef votes on the final dish, and the majority wins.
 
 ### Code Implementation
@@ -229,7 +227,6 @@ def random_forest_kitchen(request):
 
 ## Lesson 3: Gradient Boosting - The Master Chef's Sequential Training
 
-### The Kitchen Analogy
 Gradient Boosting is like a master chef training apprentices in sequence. Each new apprentice focuses specifically on the dishes that previous apprentices struggled with, gradually building a team that can handle any culinary challenge.
 
 ### Code Implementation
@@ -324,7 +321,6 @@ def gradient_boosting_academy(request):
 
 ## Lesson 4: Voting and Stacking Classifiers - The Ultimate Kitchen Council
 
-### The Kitchen Analogy
 **Voting** is like having your best chefs each prepare their signature dish, then having a panel of food critics vote on which approach to use for the final meal.
 
 **Stacking** is like having a master chef who tastes all the other chefs' dishes and then creates a final, refined version based on what they learned from each dish.

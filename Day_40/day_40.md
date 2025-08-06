@@ -6,7 +6,7 @@ By the end of this lesson, you will understand how to create dynamic, visually a
 
 ---
 
-## Introduction: The Restaurant Kitchen Analogy
+## Introduction:
 
 Imagine that you're running a high-end restaurant. You've mastered the art of cooking (your Django views and models), but now you need to present your culinary masterpieces to your customers. You can't just dump ingredients on a plate and expect diners to be impressed. You need proper plating, garnishes, and presentation - that's exactly what Django templates do for your web applications.
 
@@ -20,7 +20,7 @@ Just as a master chef uses specialized tools, elegant plateware, and consistent 
 
 Think of Django Template Language (DTL) as your restaurant's standardized plating system. Just as every dish that leaves your kitchen follows certain presentation rules, DTL provides a consistent way to display your data.
 
-In our kitchen analogy:
+In our analogy:
 - **Variables** are like the main ingredients you place on the plate
 - **Template tags** are like your plating techniques (how you arrange things)
 - **Filters** are like your garnishes and seasonings (how you modify the presentation)

@@ -5,7 +5,7 @@ By the end of this lesson, you will be able to optimize database performance by 
 
 ---
 
-## Introduction: The Kitchen Analogy
+## Introduction:
 
 Imagine that your database is like a massive restaurant kitchen during the dinner rush. Without proper organization, chefs are bumping into each other, ingredients are scattered everywhere, orders are backing up, and customers are getting frustrated. This is exactly what happens to your application when your database isn't optimized.
 

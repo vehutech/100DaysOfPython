@@ -13,7 +13,6 @@ By the end of this lesson, you will understand the fundamental concepts of AI an
 
 Just as a master chef combines ingredients, techniques, and experience to create amazing dishes, **Artificial Intelligence (AI)** is the combination of algorithms, data, and computational power to create systems that can perform tasks that typically require human intelligence.
 
-In our kitchen analogy:
 - **Traditional Cooking** = Following exact recipes every time (traditional programming)
 - **AI Cooking** = A chef who learns from experience, adapts recipes based on available ingredients, and creates new dishes (intelligent systems)
 

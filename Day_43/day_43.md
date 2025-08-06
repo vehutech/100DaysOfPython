@@ -7,7 +7,7 @@ By the end of this lesson, you will be able to customize Django's admin interfac
 
 Imagine that you're the head chef of a prestigious restaurant, and you need to manage not just the kitchen, but also train your sous chefs, manage inventory, track orders, and oversee the entire operation. Just like how a head chef needs a comprehensive management system to run the restaurant efficiently, Django provides an incredibly powerful admin interface that serves as your "restaurant management system" for your web application.
 
-In our kitchen analogy, think of Django's admin interface as your restaurant's command center - a place where you can:
+In our analogy, think of Django's admin interface as your restaurant's command center - a place where you can:
 - View and manage all your ingredients (data)
 - Train new staff members (user permissions)
 - Create special preparation procedures (custom admin actions)

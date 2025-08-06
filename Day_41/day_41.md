@@ -21,7 +21,7 @@ Just like a chef needs different containers for different ingredients - spice ra
 
 Think of Django's ORM (Object-Relational Mapping) as your kitchen's inventory management system. Just as a chef needs to know what ingredients are available, how much of each ingredient they have, and where everything is stored, Django's ORM helps you manage your data.
 
-In our kitchen analogy:
+In our analogy:
 - **Models** = Different types of storage containers (spice rack, refrigerator, pantry)
 - **Fields** = The specific compartments or attributes of each container
 - **Relationships** = How different storage systems connect (recipes use ingredients from multiple containers)

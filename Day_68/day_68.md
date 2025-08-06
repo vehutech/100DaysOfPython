@@ -22,7 +22,7 @@ This is exactly what a CI/CD pipeline does for your Django applications - it's y
 
 ### The Quality Control Station
 
-In our kitchen analogy, this is like having a dedicated quality control station where every dish is automatically tested for taste, temperature, and presentation before it leaves the kitchen.
+In our analogy, this is like having a dedicated quality control station where every dish is automatically tested for taste, temperature, and presentation before it leaves the kitchen.
 
 ### Setting Up GitHub Actions for Django
 

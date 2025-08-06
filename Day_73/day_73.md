@@ -12,7 +12,6 @@ By the end of this lesson, you will be able to implement and compare four core s
 
 ## Lesson 1: Linear and Logistic Regression - The Foundation Sauces
 
-### The Kitchen Analogy
 Think of linear regression as making a basic roux - the fundamental sauce base that many dishes build upon. Just as a roux combines flour and butter in perfect proportions to create a smooth foundation, linear regression finds the perfect line that best fits through your data points.
 
 Logistic regression is like making a reduction sauce - you're taking your base ingredients and transforming them into something that gives you a clear yes/no answer, just like how a reduction concentrates flavors into a decisive taste.
@@ -127,7 +126,6 @@ def logistic_regression_view(request):
 
 ## Lesson 2: Decision Trees and Random Forests - The Recipe Decision Maker
 
-### The Kitchen Analogy
 A decision tree is like a master chef's decision-making process when tasting a dish: "Is it too salty? If yes, add acid. If no, is it too bland? If yes, add seasoning..." Each branch represents a yes/no question that leads to a final decision.
 
 Random Forest is like having multiple expert chefs taste your dish and vote on what needs to be adjusted - the majority opinion usually gives you the best result.
@@ -192,7 +190,6 @@ def decision_tree_view(request):
 
 ## Lesson 3: Support Vector Machines - The Perfect Knife Cut
 
-### The Kitchen Analogy
 SVM is like finding the perfect knife angle and position to make the cleanest cut through ingredients. It finds the optimal boundary (hyperplane) that separates different types of data with the maximum margin - just like how a skilled chef finds the perfect cutting technique that cleanly separates ingredients with maximum efficiency.
 
 ### Code Implementation
@@ -258,7 +255,6 @@ def svm_view(request):
 
 ## Lesson 4: k-Nearest Neighbors - The Neighborhood Taste Test
 
-### The Kitchen Analogy
 k-NN is like asking your k closest neighbor chefs what they think about a dish. If you want to know if a new recipe will be popular, you ask the 5 most similar chefs in your neighborhood, and whatever the majority says, that's your prediction. It's democracy in the kitchen!
 
 ### Code Implementation

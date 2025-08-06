@@ -80,7 +80,7 @@ application = ProtocolTypeRouter({
 })
 ```
 
-**Kitchen Analogy**: Think of ASGI as your kitchen's central command center - it decides whether incoming orders (requests) go to the regular cooking station (HTTP) or the live cooking show station (WebSocket).
+Think of ASGI as your kitchen's central command center - it decides whether incoming orders (requests) go to the regular cooking station (HTTP) or the live cooking show station (WebSocket).
 
 ---
 
@@ -211,7 +211,7 @@ websocket_urlpatterns = [
 </html>
 ```
 
-**Kitchen Analogy**: The WebSocket connection is like having a speaking tube between the dining room and kitchen - diners can call out questions and the chef can respond instantly without leaving their cooking station.
+The WebSocket connection is like having a speaking tube between the dining room and kitchen - diners can call out questions and the chef can respond instantly without leaving their cooking station.
 
 ---
 
@@ -331,7 +331,7 @@ urlpatterns = [
 ]
 ```
 
-**Kitchen Analogy**: Async views are like having a sous chef who can coordinate multiple cooking processes - while the soup simmers, they can prep vegetables, check inventory, and even call suppliers, all without waiting for each task to completely finish before starting the next.
+Async views are like having a sous chef who can coordinate multiple cooking processes - while the soup simmers, they can prep vegetables, check inventory, and even call suppliers, all without waiting for each task to completely finish before starting the next.
 
 ---
 
@@ -594,7 +594,7 @@ celery -A your_project beat --loglevel=info
 python manage.py runserver
 ```
 
-**Kitchen Analogy**: Celery is like having a separate prep kitchen with specialized chefs. Your main kitchen (Django views) can send orders (tasks) to the prep kitchen via a ticket system (Redis broker). The prep chefs (Celery workers) handle time-consuming tasks like making stocks, prep work, or special orders while your main kitchen continues serving customers without delays.
+Celery is like having a separate prep kitchen with specialized chefs. Your main kitchen (Django views) can send orders (tasks) to the prep kitchen via a ticket system (Redis broker). The prep chefs (Celery workers) handle time-consuming tasks like making stocks, prep work, or special orders while your main kitchen continues serving customers without delays.
 
 ---
 
@@ -650,7 +650,7 @@ app.conf.beat_schedule = {
 - Background tasks process without blocking main application
 - All components work together seamlessly
 
-**Kitchen Analogy**: You're building a digital version of a professional kitchen where multiple chefs can work on the same recipe simultaneously (WebSocket), the head chef can check multiple stations at once (async views), and there's a dedicated staff handling notifications and supply management (Celery) - all working together to create an efficient, modern cooking operation.
+You're building a digital version of a professional kitchen where multiple chefs can work on the same recipe simultaneously (WebSocket), the head chef can check multiple stations at once (async views), and there's a dedicated staff handling notifications and supply management (Celery) - all working together to create an efficient, modern cooking operation.
 
 ---
 

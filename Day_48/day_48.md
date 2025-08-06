@@ -730,7 +730,7 @@ By the end of this project, you will be able to implement a complete profile pic
 
 Imagine that you're running a bustling restaurant kitchen, and each of your chefs wants to display their professional headshot on their station. Just like how a head chef needs to ensure that only proper, high-quality photos are displayed (not blurry snapshots or inappropriate images), Django needs a system to handle, validate, and serve profile pictures safely and efficiently.
 
-In our kitchen analogy, think of Django as the head chef who:
+In our analogy, think of Django as the head chef who:
 - **Receives** the photos (file uploads)
 - **Inspects** them for quality and appropriateness (validation)
 - **Stores** them in the right location (media handling)

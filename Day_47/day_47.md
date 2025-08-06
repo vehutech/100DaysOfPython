@@ -21,7 +21,6 @@ By the end of this lesson, you will be able to:
 
 ## Lesson 1: Extending the User Model
 
-### The Kitchen Analogy
 Think of Django's built-in User model as a basic chef's uniform that comes with just a name tag and basic identification. While functional, you often need to add more details like the chef's specialization, years of experience, favorite cooking style, or emergency contact information. Extending the User model is like adding custom patches and accessories to make the uniform more informative and useful.
 
 ### Why Extend the User Model?
@@ -140,7 +139,6 @@ def edit_profile(request):
 
 ## Lesson 2: Custom User Models
 
-### The Kitchen Analogy
 Sometimes the basic chef uniform just won't work for your restaurant. Maybe you run a specialized sushi restaurant where you need to track each chef's sushi certification level, knife preferences, and rice preparation expertise. In these cases, you need to design a completely custom uniform system from scratch rather than just adding accessories to the standard one.
 
 ### When to Use Custom User Models
@@ -247,7 +245,6 @@ AUTH_USER_MODEL = 'your_app.ChefUser'  # Replace 'your_app' with your actual app
 
 ## Lesson 3: Groups and Permissions
 
-### The Kitchen Analogy
 In our restaurant, we have different types of staff with different responsibilities. Head chefs can modify recipes and manage inventory, sous chefs can prepare dishes and view recipes, servers can take orders and view the menu, and dishwashers can access cleaning supplies. Django's groups and permissions system works exactly like this - you create groups (job roles) and assign specific permissions (what they can do) to each group.
 
 ### Understanding Django Permissions
@@ -377,7 +374,6 @@ class Command(BaseCommand):
 
 ## Lesson 4: Decorators for Access Control
 
-### The Kitchen Analogy
 Think of decorators as security guards at different stations in your restaurant. Just as a security guard at the wine cellar checks if someone has the proper credentials before letting them in, decorators check if a user has the right permissions before allowing them to access certain views or functions.
 
 ### Built-in Permission Decorators
@@ -571,7 +567,7 @@ By the end of this lesson, you will be able to create a comprehensive user profi
 
 Imagine that you're building a management system for a high-end restaurant chain. Just like how a restaurant has different roles - head chef, sous chef, line cook, waiter, and manager - your web application needs different user types with varying levels of access and permissions.
 
-In our kitchen analogy:
+In our analogy:
 - **Head Chef** (Admin): Has access to everything - can modify recipes, manage staff, view finances
 - **Sous Chef** (Manager): Can modify recipes, manage kitchen staff, but can't access financial data
 - **Line Cook** (Staff): Can view recipes and update inventory, but can't modify recipes
@@ -1125,7 +1121,6 @@ def toggle_user_status(request, user_id):
 
 ## Key Concepts Demonstrated
 
-**Kitchen Analogy Summary:**
 - **Custom User Model**: Employee ID system with different roles
 - **User Profiles**: Detailed employee files with personal information
 - **Role-Based Access**: Different kitchen areas for different staff levels

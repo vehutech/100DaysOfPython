@@ -17,9 +17,7 @@ This is exactly how Django sessions work! The "ticket" is a session cookie store
 
 ## Lesson 1: Django Sessions Framework
 
-### The Kitchen Filing System
-
-In our kitchen analogy, Django's session framework is like having a sophisticated filing system that automatically manages customer information cards.
+In our analogy, Django's session framework is like having a sophisticated filing system that automatically manages customer information cards.
 
 ```python
 # views.py - The Head Chef's Orders
@@ -704,7 +702,7 @@ Think of it this way:
 
 ##Project: Building a Shopping Cart System
 
-Let's create a complete shopping cart system that works just like our kitchen analogy. We'll build this step by step, starting with the foundation and working our way up to a fully functional cart.
+Let's create a complete shopping cart system that works just like our analogy. We'll build this step by step, starting with the foundation and working our way up to a fully functional cart.
 
 ### Step 1: Setting Up Our Product Model
 
@@ -1075,7 +1073,7 @@ You now have a complete shopping cart system that works like a professional rest
 7. **Session Persistence** - Like keeping track of orders even when customers step away
 
 ### How It Works:
-Just like in our kitchen analogy, when a customer (user) visits your website, Django creates a session (like starting a new order ticket). As they browse products and add items to their cart, the information is stored in the session (like writing items on the order ticket). The cart persists as they navigate around your site, and they can always return to see their cart contents (like checking their order ticket).
+Just like in our analogy, when a customer (user) visits your website, Django creates a session (like starting a new order ticket). As they browse products and add items to their cart, the information is stored in the session (like writing items on the order ticket). The cart persists as they navigate around your site, and they can always return to see their cart contents (like checking their order ticket).
 
 ### Testing Your Cart:
 1. Run your Django server: `python manage.py runserver`

@@ -14,7 +14,7 @@ Before we start writing Python, let's map out:
     
 - Why programmers exist 🤓
     
-- The levels of abstraction in computing (using a kitchen analogy, of course)
+- The levels of abstraction
 
 - The rise of Python 🐍
     

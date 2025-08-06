@@ -15,7 +15,7 @@ This is exactly what unsupervised learning does with data - it finds hidden patt
 
 ## Lesson 1: K-means Clustering - The Spice Organization System
 
-**Kitchen Analogy**: K-means is like organizing your spice collection into specific jars. You decide you want exactly 4 jars (clusters), and you group spices based on their characteristics - sweet spices in one jar, hot spices in another, herbs in the third, and exotic spices in the fourth.
+Think of K-means as like organizing your spice collection into specific jars. You decide you want exactly 4 jars (clusters), and you group spices based on their characteristics - sweet spices in one jar, hot spices in another, herbs in the third, and exotic spices in the fourth.
 
 ### Code Example: Basic K-means Implementation
 
@@ -118,7 +118,7 @@ def kmeans_clustering_view(request):
 
 ## Lesson 2: Hierarchical Clustering - The Recipe Family Tree
 
-**Kitchen Analogy**: Hierarchical clustering is like creating a family tree of recipes. You start with individual dishes and gradually group them - first by cuisine type, then by cooking method, then by main ingredient - creating a tree-like structure of relationships.
+Hierarchical clustering is like creating a family tree of recipes. You start with individual dishes and gradually group them - first by cuisine type, then by cooking method, then by main ingredient - creating a tree-like structure of relationships.
 
 ### Code Example: Hierarchical Clustering Implementation
 
@@ -194,7 +194,7 @@ def hierarchical_clustering_view(request):
 
 ## Lesson 3: Principal Component Analysis (PCA) - The Flavor Essence Extractor
 
-**Kitchen Analogy**: PCA is like a master chef who can identify the 2-3 most important flavor compounds that define a dish's character. Instead of tracking 20 different spices, you focus on the essential flavor profiles that capture 90% of what makes each dish unique.
+PCA is like a master chef who can identify the 2-3 most important flavor compounds that define a dish's character. Instead of tracking 20 different spices, you focus on the essential flavor profiles that capture 90% of what makes each dish unique.
 
 ### Code Example: PCA Implementation
 
@@ -283,7 +283,7 @@ def pca_analysis_view(request):
 
 ## Lesson 4: DBSCAN and Anomaly Detection - The Quality Control Inspector
 
-**Kitchen Analogy**: DBSCAN is like a quality control inspector in your kitchen who can identify clusters of perfectly cooked dishes while also spotting the burnt ones, undercooked items, or unusual experimental dishes that don't fit any standard category.
+DBSCAN is like a quality control inspector in your kitchen who can identify clusters of perfectly cooked dishes while also spotting the burnt ones, undercooked items, or unusual experimental dishes that don't fit any standard category.
 
 ### Code Example: DBSCAN Implementation
 
