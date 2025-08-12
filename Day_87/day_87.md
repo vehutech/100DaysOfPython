@@ -5,7 +5,7 @@ By the end of this lesson, you will understand the fundamental architecture of L
 
 ---
 
-## Introduction: Imagine That...
+## Introduction:
 
 Imagine that you're the head chef in the world's most sophisticated restaurant where recipes aren't written in traditional cookbooks, but are learned by observing millions of meals prepared by countless cooks across the globe. Your sous chefs don't just follow instructions—they've absorbed the essence of culinary wisdom from every cuisine imaginable, understanding not just what ingredients go together, but why they create harmony on the palate.
 

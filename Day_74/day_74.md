@@ -5,8 +5,6 @@ By the end of this lesson, you will be able to implement comprehensive model eva
 
 ---
 
-## Imagine That...
-
 Imagine you're the head chef at a prestigious restaurant, and you've just created a revolutionary new recipe for the perfect pasta dish. But here's the catch - you can't just serve it to customers immediately! 
 
 Just like a responsible chef would:

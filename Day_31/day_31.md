@@ -1,11 +1,11 @@
 
-### **Day 31: HTML Basics — Setting the Table** 🍽️
+### **Day 31: HTML Basics — Setting the Table**
 
-Welcome to Day 31, chefs! Today, we’re stepping into the front of the house—your web restaurant’s dining area—where HTML is the art of plating. Forget Django for now; we’re focusing purely on crafting the perfect plate to present your content to browsers. HTML is like the plate, cutlery, and tablecloth that give structure to your dish, making it ready for customers (browsers) to enjoy. By the end of today, you’ll plate a simple webpage with headings, paragraphs, and links, ready to impress. Let’s set the table! 🚀
+Welcome to Day 31, chefs! Today, we’re stepping into the front of the house—your web restaurant’s dining area—where HTML is the art of plating. Forget Django for now; we’re focusing purely on crafting the perfect plate to present your content to browsers. HTML is like the plate, cutlery, and tablecloth that give structure to your dish, making it ready for customers (browsers) to enjoy. By the end of today, you’ll plate a simple webpage with headings, paragraphs, and links, ready to impress. Let’s set the table!
 
 ---
 
-#### 🎯 **Objectives**
+#### **Objectives**
 * Understand HTML’s role as the structure of the web.
 * Master the anatomy of an HTML document.
 * Use core elements: headings (`<h1>`–`<h6>`), paragraphs (`<p>`), and links (`<a>`).

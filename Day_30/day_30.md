@@ -1,16 +1,16 @@
 ---
-# **Day 30: How the Web Works — Foundation for Django** 🌐🚀
+#Day 30: How the Web Works — Foundation for Django
 ---
 Congratulations on completing Python Core! Today we begin our journey into web development with Django. But before we dive into Django's magic, we need to understand the foundation: how the web actually works. Think of this as learning the rules of the road before driving a car — essential knowledge that will make everything else click into place!
 ---
-## 🎯 **Objectives**
+## **Objectives**
 * Understand the client-server architecture of the web
 * Master HTTP requests and responses
 * Learn the role of URLs, domains, and IP addresses
 * Understand how browsers render web pages
 * Grasp the request-response cycle that powers every web interaction
 ---
-## 🌍 **The Big Picture: How Websites Actually Work**
+## **The Big Picture: How Websites Actually Work**
 
 When you type `www.google.com` and hit Enter, here's the incredible journey that happens in milliseconds:
 
@@ -28,7 +28,7 @@ Browser renders the page you see
 
 This simple interaction involves multiple complex systems working together seamlessly!
 ---
-## 🏗️ **Client-Server Architecture: The Web's Foundation**
+## **Client-Server Architecture: The Web's Foundation**
 
 The web is built on a **client-server model**. Let's break this down:
 
@@ -97,7 +97,7 @@ https://www.example.com:80/products/shoes?color=red&size=42#reviews
   |        |        |    |       |           |                |
 Protocol Domain   Port  Path   Resource   Query Parameters  Fragment
 
-🔍 Let's decode this:
+Let's decode this:
 ```
 
 ```python
@@ -120,7 +120,7 @@ urls = [
 ]
 ```
 ---
-## 🌐 **Domain Names and IP Addresses: The Internet's Phone Book**
+## **Domain Names and IP Addresses: The Internet's Phone Book**
 
 Domain names are human-friendly, but computers use IP addresses:
 
@@ -160,7 +160,7 @@ print(f"Connecting to {domain} at IP address {ip}")
 
 **Fun Fact:** You can actually visit websites using their IP addresses directly! Try typing `142.250.191.14` in your browser (that's one of Google's IPs).
 ---
-## 📨 **HTTP: The Language of the Web**
+## **HTTP: The Language of the Web**
 
 HTTP (HyperText Transfer Protocol) is how browsers and servers communicate:
 
@@ -255,7 +255,7 @@ def simulate_web_request():
 simulate_web_request()
 ```
 ---
-## 🔄 **The Complete Request-Response Cycle**
+## **The Complete Request-Response Cycle**
 
 Here's what happens every time you visit a webpage:
 
@@ -354,7 +354,7 @@ explain_protocol("HTTPS")
 - Boosts SEO rankings
 - Builds user trust
 ---
-## 🎭 **HTTP Status Codes: Server's Way of Communicating**
+## **HTTP Status Codes: Server's Way of Communicating**
 
 ```python
 class HTTPStatusCodes:
@@ -411,7 +411,7 @@ for code in common_codes:
     print(status_codes.explain_code(code))
 ```
 ---
-## 🌐 **Browsers: The Web's Interpreters**
+## **Browsers: The Web's Interpreters**
 
 ```python
 class SimpleBrowser:
@@ -556,7 +556,7 @@ Create a class that mimics browser behavior:
 
 **Bonus Challenge:** Create a web crawler that follows links and maps website structure, respecting robots.txt files.
 ---
-## 🤔 **Food for Thought**
+## **Food for Thought**
 
 Why do you think the web uses a request-response model instead of maintaining permanent connections? How does understanding HTTP help you become a better web developer? What security considerations should you keep in mind when building web applications?
 

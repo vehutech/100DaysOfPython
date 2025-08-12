@@ -5,8 +5,6 @@ By the end of this lesson, you will be able to deploy a Django application to th
 
 ---
 
-## Imagine That...
-
 Imagine you've been perfecting your culinary skills in your home kitchen for months. You've created the most amazing restaurant management system - your Django application. Your recipes are perfect, your ingredients are fresh, and your cooking process is flawless. But here's the thing: no matter how incredible your food is, if customers can't find your restaurant or if you're only cooking for yourself at home, your culinary genius remains hidden from the world.
 
 Cloud deployment is like taking your amazing home kitchen and opening it as a real restaurant in the heart of the city. You need to find the perfect location (cloud provider), set up professional equipment (server configuration), establish supply chains for fresh ingredients (database hosting), create an attractive storefront (static files), and put up a proper sign with your restaurant's name (domain and SSL). 

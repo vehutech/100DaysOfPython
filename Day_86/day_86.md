@@ -5,8 +5,6 @@ By the end of this lesson, you will understand the fundamental components of tra
 
 ---
 
-## Imagine That...
-
 Imagine you're the head chef of the world's most sophisticated restaurant where every dish must be perfectly crafted by understanding not just individual ingredients, but how each ingredient relates to every other ingredient simultaneously. Your kitchen operates with an revolutionary system where each cooking station can "pay attention" to all other stations at once, understanding context, relationships, and dependencies in ways never before possible. This is the power of transformer architecture - a cooking methodology that revolutionized how we prepare the most complex computational dishes in artificial intelligence.
 
 ---

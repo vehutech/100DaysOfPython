@@ -5,7 +5,7 @@ By the end of this lesson, you will be able to identify performance bottlenecks 
 
 ---
 
-## Introduction: Imagine That...
+## Introduction:
 
 Imagine that you're the head chef of a bustling five-star restaurant. Your kitchen is your Django application, your sous chefs are your database queries, your wait staff represents your application metrics, and your restaurant manager is your error tracking system. 
 

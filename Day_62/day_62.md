@@ -5,7 +5,7 @@ By the end of this lesson, you will be able to create Django applications that s
 
 ---
 
-## Introduction: Imagine That...
+## Introduction:
 
 Imagine that you're a successful chef who started with a small local restaurant. Your signature dishes were so amazing that food lovers from around the world started visiting. Soon, you realize you need to expand globally - but here's the challenge: your French customers want menus in French, your Japanese customers prefer different date formats, and your customers in Tokyo are confused when you display New York time for reservations.
 

@@ -717,7 +717,6 @@ This assignment tests your understanding of argument parsing, database queries, 
 ## Learning Objective
 By the end of this lesson, you will be able to create robust Django management commands that can import data from CSV files and export Django model data to various formats, just like a chef who can both receive ingredients from suppliers and package meals for delivery.
 
-## Imagine That...
 Imagine you're the head chef of a bustling restaurant chain. Every morning, you receive fresh ingredient deliveries from various suppliers - some arrive as CSV spreadsheets, others as JSON manifests. At the end of each day, you need to export your inventory, sales data, and recipes to different formats for your accountants, suppliers, and franchise locations. Your Django management commands are like your trusted kitchen assistants who handle all these data transfers automatically, ensuring your restaurant's "digital pantry" stays organized and accessible.
 
 ## Project: Restaurant Chain Data Management System

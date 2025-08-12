@@ -4,7 +4,7 @@
 
 ---
 
-## Introduction: Imagine That...
+## Introduction:
 
 Imagine that you're running a world-class restaurant chain. You've perfected your signature dishes (Django applications), but now you need to replicate the exact same cooking environment in kitchens across different cities, countries, and continents. Each location has different equipment, different operating systems for their appliances, and different staff capabilities.
 

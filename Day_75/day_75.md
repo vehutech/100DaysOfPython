@@ -5,7 +5,7 @@ By the end of this lesson, you will master the art of unsupervised learning algo
 
 ---
 
-## Introduction: Imagine That...
+## Introduction:
 
 Imagine that you're a world-renowned chef who has just inherited a mysterious spice collection from your grandmother. The spices are unlabeled, but you need to organize them, understand their relationships, and create new recipes. You don't have a cookbook (labeled data) to guide you, but through your expertise, you can group similar spices together, identify the most important flavor compounds, and even spot unusual or exotic spices that don't fit typical patterns.
 

@@ -5,8 +5,6 @@ By the end of this lesson, you will master the fundamental techniques of Natural
 
 ---
 
-## Imagine That...
-
 Imagine that you're running the most sophisticated recipe interpretation service in the world. Every day, thousands of handwritten recipes, food reviews, and culinary descriptions pour into your establishment from different cultures, languages, and writing styles. Your master chefs need to quickly understand not just what ingredients are mentioned, but the sentiment, cooking style, dietary restrictions, and cuisine type from each piece of text.
 
 Just as a master chef can instantly recognize the essence of a dish from its aroma and appearance, we're going to train our AI systems to instantly understand the essence of text through sophisticated pattern recognition and memory systems.

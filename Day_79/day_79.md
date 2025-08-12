@@ -5,8 +5,6 @@ By the end of this lesson, you will understand how to construct and optimize dee
 
 ---
 
-## Imagine That...
-
 Imagine that you're the head chef of an ambitious restaurant that's expanding from making simple dishes to creating elaborate multi-course meals. Just as a master chef layers flavors, textures, and cooking techniques across multiple courses to create an extraordinary dining experience, we're going to learn how to layer neural network components to create deep, sophisticated AI models.
 
 In our culinary journey today, you'll discover how to stack ingredients (layers) properly, prevent your delicate sauces from breaking (vanishing gradients), maintain consistency across your entire menu (batch normalization), and know when to hold back certain ingredients to prevent overwhelming the palate (dropout). Finally, you'll master advanced cooking techniques (optimizers) that help you achieve perfect results every time.

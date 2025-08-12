@@ -5,7 +5,7 @@ By the end of this lesson, you will understand how to implement a complete CI/CD
 
 ---
 
-## Introduction: Imagine That...
+## Introduction:
 
 Imagine that you're running a bustling restaurant kitchen where multiple chefs are constantly creating new dishes and improving existing recipes. Without proper coordination, one chef might accidentally serve raw chicken while another burns the pasta because they're not following the same quality checks. Now imagine if you could create a magical kitchen system where:
 

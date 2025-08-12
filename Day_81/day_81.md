@@ -5,8 +5,6 @@ By the end of this lesson, you will understand how Recurrent Neural Networks pro
 
 ---
 
-## Imagine that...
-
 Imagine that you're running a bustling restaurant where orders don't come in isolation, but as part of flowing conversations between customers and waitstaff. Each word spoken builds upon the previous ones, creating meaning through context and sequence. A traditional chef might only focus on individual ingredients, but you need a special kind of culinary memory - one that remembers the flavor combinations from earlier in the meal to create the perfect final dish. This is exactly what Recurrent Neural Networks do with data: they maintain a "memory" of previous information to make sense of sequences.
 
 ---

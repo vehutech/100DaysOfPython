@@ -1,7 +1,7 @@
 # AI Mastery Course: Supervised Learning Algorithms with Django
 ## Day 73: From Kitchen Basics to Master Chef - Supervised Learning Algorithms
 
-**Imagine that...** you're stepping into a world-class culinary school where every dish you learn to prepare represents a different way of understanding and predicting patterns in data. Today, you'll master four fundamental cooking techniques that every data chef needs in their repertoire - each algorithm is like a different cooking method that transforms raw ingredients (data) into delicious insights.
+Imagine that... you're stepping into a world-class culinary school where every dish you learn to prepare represents a different way of understanding and predicting patterns in data. Today, you'll master four fundamental cooking techniques that every data chef needs in their repertoire - each algorithm is like a different cooking method that transforms raw ingredients (data) into delicious insights.
 
 ---
 

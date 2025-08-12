@@ -10,7 +10,6 @@ From yesterday’s discussion, we outlined four core things you’ll need:
 3. **A Device**
     
 4. **An IDE**
-    
 
 But there’s **one more crucial ingredient**:  
 5. **Python Interpreter**

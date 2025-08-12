@@ -5,8 +5,6 @@ By the end of this lesson, you will understand how Django manages user sessions 
 
 ---
 
-## Imagine That...
-
 Imagine that you're running a busy restaurant kitchen where dozens of customers come and go throughout the day. Each customer has specific preferences, dietary restrictions, and order history that you need to remember. But here's the challenge: you can't physically follow each customer around to remember their details.
 
 Instead, you give each customer a special numbered ticket when they first arrive. This ticket corresponds to a detailed card in your kitchen filing system where you write down everything about that customer - their favorite dishes, allergies, previous orders, and current meal preferences. Every time they return to your restaurant, they show their ticket, and you instantly know everything about them by looking up their card.

@@ -11,8 +11,6 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## Imagine That...
-
 Imagine that you're the head chef of a bustling restaurant kitchen. Every dish that leaves your kitchen represents a feature in your Django application. Just as a chef needs to taste-test dishes, check ingredient quality, and ensure consistent preparation methods, a Django developer needs debugging tools to identify problems and testing frameworks to ensure everything works perfectly before serving it to users.
 
 In our culinary world of Django development, debugging is like being a food critic in your own kitchen - you need to identify what's wrong with a dish and fix it. Testing is like having a systematic quality control process where you check every recipe, every ingredient, and every cooking technique to ensure they work consistently every time.
@@ -691,8 +689,6 @@ coverage html
 By the end of this project, you will be able to create a comprehensive test suite for a Django expense tracker application, understanding how to test models, views, and forms while ensuring code quality and reliability.
 
 ---
-
-## Imagine That...
 
 Imagine that you're a master chef running a prestigious restaurant kitchen. Every dish that leaves your kitchen must meet the highest standards before reaching your customers. You wouldn't serve a soufflé without testing if it's properly risen, or send out a sauce without tasting it first. 
 

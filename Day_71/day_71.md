@@ -10,8 +10,6 @@ By the end of this course, you will be able to:
 
 ---
 
-## Imagine That...
-
 Imagine that you're the head chef of a revolutionary AI restaurant called "Data Bistro." Your kitchen isn't filled with traditional ingredients—instead, you work with numbers, probabilities, and statistical insights. Just as a master chef needs to understand flavors, temperatures, and cooking techniques, an AI practitioner must master statistics and probability to create the perfect "dishes" (models and insights) from raw data "ingredients."
 
 In your statistical kitchen, you'll learn to:

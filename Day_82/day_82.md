@@ -5,7 +5,7 @@ By the end of this lesson, you will master advanced CNN architectures and unders
 
 ---
 
-## Introduction: Imagine That...
+## Introduction:
 
 Imagine that you're running a world-class restaurant where each dish requires different cooking techniques and specialized equipment. Some dishes need quick preparation with minimal ingredients (like a perfect omelet), while others require complex, multi-layered preparation with various cooking stations working together (like a seven-course tasting menu). 
 

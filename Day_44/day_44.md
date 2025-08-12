@@ -5,8 +5,6 @@ By the end of this lesson, you will be able to construct complex database querie
 
 ---
 
-## Imagine That...
-
 Imagine that you're the head chef at a world-renowned restaurant with an enormous pantry filled with thousands of ingredients. You need to quickly find specific combinations of ingredients, calculate nutritional information across multiple dishes, and optimize your kitchen operations to serve customers efficiently. 
 
 Just as a skilled chef doesn't rummage through every shelf randomly but uses organized systems, precise measurements, and efficient techniques, Django's QuerySet system allows you to navigate your database with surgical precision—finding exactly what you need, when you need it, without wasting time or resources.

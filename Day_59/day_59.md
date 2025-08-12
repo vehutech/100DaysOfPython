@@ -7,7 +7,7 @@ By the end of this course, you will understand how to implement asynchronous fun
 
 ## Lesson 1: Django Channels Introduction
 
-**Imagine that...** you're running a busy restaurant kitchen. In traditional Django (synchronous cooking), you can only prepare one dish at a time - you start the soup, wait for it to finish, then move to the salad, then the main course. But with Django Channels, you become like a head chef managing multiple cooks simultaneously - one chef handles appetizers, another works on mains, and a third prepares desserts, all cooking at the same time and communicating seamlessly.
+Imagine that... you're running a busy restaurant kitchen. In traditional Django (synchronous cooking), you can only prepare one dish at a time - you start the soup, wait for it to finish, then move to the salad, then the main course. But with Django Channels, you become like a head chef managing multiple cooks simultaneously - one chef handles appetizers, another works on mains, and a third prepares desserts, all cooking at the same time and communicating seamlessly.
 
 ### What are Django Channels?
 
@@ -86,7 +86,7 @@ Think of ASGI as your kitchen's central command center - it decides whether inco
 
 ## Lesson 2: WebSockets Implementation
 
-**Imagine that...** you're running a cooking show where viewers can ask questions in real-time. Instead of waiting for commercial breaks to read letters (like traditional HTTP requests), you have a live microphone system where viewers can speak directly to you while you cook, and you can respond immediately without stopping your demonstration.
+Imagine that... you're running a cooking show where viewers can ask questions in real-time. Instead of waiting for commercial breaks to read letters (like traditional HTTP requests), you have a live microphone system where viewers can speak directly to you while you cook, and you can respond immediately without stopping your demonstration.
 
 ### Creating a Consumer
 
@@ -217,7 +217,7 @@ The WebSocket connection is like having a speaking tube between the dining room 
 
 ## Lesson 3: Async Views and ORM
 
-**Imagine that...** you're a chef who can now chop vegetables while simultaneously checking if the oven is ready, tasting the soup, and answering customer questions - all without having to stop one task completely before starting another. This is async Django in action!
+Imagine that... you're a chef who can now chop vegetables while simultaneously checking if the oven is ready, tasting the soup, and answering customer questions - all without having to stop one task completely before starting another. This is async Django in action!
 
 ### Async Views
 
@@ -337,7 +337,7 @@ Async views are like having a sous chef who can coordinate multiple cooking proc
 
 ## Lesson 4: Background Tasks with Celery
 
-**Imagine that...** your restaurant is so busy that some tasks need to be handled by a separate prep kitchen. When customers order a birthday cake, you don't make them wait 2 hours while you bake it - instead, you send the order to your pastry chef in the back (Celery worker) who handles it separately while you continue serving other customers.
+Imagine that... your restaurant is so busy that some tasks need to be handled by a separate prep kitchen. When customers order a birthday cake, you don't make them wait 2 hours while you bake it - instead, you send the order to your pastry chef in the back (Celery worker) who handles it separately while you continue serving other customers.
 
 ### Celery Setup and Configuration
 

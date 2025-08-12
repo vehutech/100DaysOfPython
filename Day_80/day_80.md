@@ -10,8 +10,6 @@ By the end of this lesson, you will be able to:
 
 ---
 
-## Imagine That...
-
 Imagine that you're running the most sophisticated restaurant in the world, where every dish must be identified and classified with absolute precision. Your head chef needs to train a team of specialized sous chefs, each with a unique ability to recognize specific patterns and ingredients in any dish that comes through the door.
 
 Just like how a master chef trains their team to identify the subtle differences between a Bolognese and a Marinara sauce by looking at texture, color, and ingredient distribution, we're going to train our artificial "chefs" (neural networks) to recognize patterns in images with remarkable accuracy.

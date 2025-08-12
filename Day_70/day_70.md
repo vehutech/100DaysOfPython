@@ -7,7 +7,7 @@ By the end of this lesson, you will understand the fundamental concepts of AI an
 
 ## Lesson 1: Introduction to Artificial Intelligence Concepts
 
-**Imagine that...** you're the head chef of the world's most advanced restaurant kitchen. Your kitchen isn't just any ordinary kitchen - it's an intelligent kitchen that learns, adapts, and makes decisions. This is exactly what Artificial Intelligence is like!
+Imagine that... you're the head chef of the world's most advanced restaurant kitchen. Your kitchen isn't just any ordinary kitchen - it's an intelligent kitchen that learns, adapts, and makes decisions. This is exactly what Artificial Intelligence is like!
 
 ### What is Artificial Intelligence?
 
@@ -27,7 +27,7 @@ Just as a master chef combines ingredients, techniques, and experience to create
 
 ## Lesson 2: Machine Learning vs Deep Learning vs AI
 
-**Imagine that...** AI is your entire restaurant empire, Machine Learning is your head chef, and Deep Learning is your most specialized sous chef who's amazing at very specific techniques.
+Imagine that... AI is your entire restaurant empire, Machine Learning is your head chef, and Deep Learning is your most specialized sous chef who's amazing at very specific techniques.
 
 ### The Kitchen Hierarchy
 
@@ -59,7 +59,7 @@ Just as a master chef combines ingredients, techniques, and experience to create
 
 ## Lesson 3: Types of ML - The Three Cooking Schools
 
-**Imagine that...** there are three different cooking schools, each with their own teaching philosophy.
+Imagine that... there are three different cooking schools, each with their own teaching philosophy.
 
 ### 1. Supervised Learning - The Traditional Cooking School
 
@@ -104,7 +104,7 @@ Like learning through trial and error with rewards and penalties:
 
 ## Lesson 4: Python for AI - Your Kitchen Tools
 
-**Imagine that...** Python libraries are like your essential kitchen tools - each designed for specific cooking tasks.
+Imagine that... Python libraries are like your essential kitchen tools - each designed for specific cooking tasks.
 
 ### The Essential Kitchen Tools (Python Libraries)
 
@@ -220,7 +220,7 @@ plt.show()
 
 ## Final Project: The Intelligent Restaurant Analytics System
 
-**Imagine that...** you're opening a new restaurant and need to analyze your competition, understand customer preferences, and optimize your menu using AI principles.
+Imagine that... you're opening a new restaurant and need to analyze your competition, understand customer preferences, and optimize your menu using AI principles.
 
 ```python
 import numpy as np
