@@ -1,6 +1,6 @@
 # AI Mastery Course - Day 89: Reinforcement Learning
 
-**Imagine that...** you're training a master chef who learns to create perfect dishes not through recipes, but by tasting countless variations, remembering what worked, and gradually refining their technique through trial, error, and reward. This is the essence of reinforcement learning - an AI approach where agents learn optimal behavior through interaction with their environment, receiving feedback in the form of rewards and penalties.
+Imagine you're training a master chef who learns to create perfect dishes not through recipes, but by tasting countless variations, remembering what worked, and gradually refining their technique through trial, error, and reward. This is the essence of reinforcement learning - an AI approach where agents learn optimal behavior through interaction with their environment, receiving feedback in the form of rewards and penalties.
 
 ## Learning Objectives
 
