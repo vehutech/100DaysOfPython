@@ -17,7 +17,7 @@ But first, let's understand a fundamental truth: computers, like professional eq
 ## 1. Binary Systems & Data Representation
 *Understanding Your Basic Ingredients: 0s and 1s*
 
-Just as every complex dish ultimately comes down to basic flavor compounds – salt, sweet, bitter, sour, and umami – every piece of information in a computer comes down to just two basic ingredients: **0** and **1**.
+Just as every complex dish ultimately comes down to basic flavor compounds – salt, sweet, bitter, sour, and umami – every piece of information in a computer comes down to just two basic ingredients: 0 and 1.
 
 Think of this like having a magical pantry where you only have two ingredients, but somehow master chefs (computers) can create infinite variety using just these elements!
 
